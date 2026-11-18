@@ -38,8 +38,8 @@ em { color: var(--blue); font-family: Georgia, "Times New Roman", serif; font-we
 .site-header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgb(250 250 248 / 96%); }
 .header-inner { height: 88px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 14px; }
-.monogram { font-size: 32px; letter-spacing: -3px; font-weight: 650; line-height: 1; }
-.monogram span { color: var(--blue); }
+.monogram { display: inline-flex; align-items: center; gap: .1em; font-size: 32px; letter-spacing: -1.5px; font-weight: 650; line-height: 1; }
+.monogram-flake { width: .62em; height: .62em; flex: 0 0 .62em; fill: none; stroke: var(--blue); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .brand-name { font-size: 14px; font-weight: 600; letter-spacing: -.2px; }
 .site-header nav { display: flex; align-items: center; gap: 34px; margin-left: auto; margin-right: 42px; }
 .site-header nav a { color: #515965; font-size: 13px; padding-block: 12px; }
@@ -99,6 +99,7 @@ h2 { font-size: 38px; line-height: 1.2; letter-spacing: -1.4px; margin-top: 15px
 .gitmart-visual { background: #e7efed; color: #385e59; }
 .academia-visual { background: #eeeaf3; color: #6e5a83; }
 .data-visual { background: #e9eef4; color: #435a70; }
+.trustlens-visual { background: #f2ece3; color: #7a5b3a; }
 .chart-link { display: block; }
 .chart-link > span { display: block; margin-top: 12px; font-size: 11px; font-weight: 600; }
 .chart-link:hover > span { text-decoration: underline; }
@@ -254,6 +255,7 @@ h2 { font-size: 38px; line-height: 1.2; letter-spacing: -1.4px; margin-top: 15px
 [data-theme="dark"] .gitmart-visual { background: #263b39; color: #c5e1d9; }
 [data-theme="dark"] .academia-visual { background: #382e43; color: #e0d0ef; }
 [data-theme="dark"] .data-visual { background: #263648; color: #d0e2f5; }
+[data-theme="dark"] .trustlens-visual { background: #3d3226; color: #ecd9c3; }
 [data-theme="dark"] .involvement-photo, [data-theme="dark"] .gallery-slide img { background: #26303d; }
 [data-theme="dark"] .button { background: #a5baff; border-color: #a5baff; color: #151a22; }
 [data-theme="dark"] .button:hover { background: #c0ceff; border-color: #c0ceff; }

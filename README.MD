@@ -134,11 +134,12 @@ thant-eaindray-portfolio/
   favicon.svg                       Browser tab icon
   images/                           Profile, project, and club photos
     profile.jpeg                    Profile photo
-    gitmart.jpeg, magi.jpeg, datanalysis.jpeg
+    GitMart.png, magi.jpeg, datanalysis.jpeg, TrustLens.png
                                     Project screenshots and chart
     classbonding.jpeg, gryphons.jpeg, wro-volunteering.jpeg
                                     Club activity photos
-    1.jpeg – 7.jpeg                 Clubs photo gallery
+    1.jpeg – 7.jpeg, Byte4ce_Group_photo.jpeg
+                                    Clubs photo gallery
   serve.mjs                         Local HTTP preview server
   package.json                      Optional npm start/dev commands
   resume.pdf                        Downloadable resume
@@ -152,9 +153,9 @@ thant-eaindray-portfolio/
 - **Navigation:** the header and footer are included in all three HTML files. Keep shared labels and links consistent when editing them. Each header uses `aria-current="page"` only on its own page's navigation link.
 - **Colours, fonts, and layout:** edit `styles.css`.
 - **Headshot:** replace `images/profile.jpeg`, or update its filename and alt text in `index.html` and add the new file to the server routes.
-- **Project images:** replace `images/gitmart.jpeg`, `images/magi.jpeg`, or `images/datanalysis.jpeg`, or update their filenames and alt text in `projects.html` and add the new files to the server routes.
+- **Project images:** replace `images/GitMart.png`, `images/magi.jpeg`, `images/datanalysis.jpeg`, or `images/TrustLens.png`, or update their filenames and alt text in `projects.html` and add the new files to the server routes.
 - **Club photos:** replace the relevant file in `images/`, or update its filename and alt text in `clubs.html` and add the new file to the server routes.
-- **Photo gallery:** replace `images/1.jpeg` through `images/7.jpeg`, or edit the slides and their alt text in `clubs.html`. Update the gallery image routes in `serve.mjs` if you change the filenames or number of photos.
+- **Photo gallery:** replace `images/1.jpeg` through `images/7.jpeg` or `images/Byte4ce_Group_photo.jpeg`, or edit the slides and their alt text in `clubs.html`. Update the gallery image routes in `serve.mjs` if you change the filenames or number of photos.
 - **Project links:** update the repository and demo URLs in `projects.html`.
 - **Resume:** replace `resume.pdf` while keeping its filename, or update the matching route and download filename in `serve.mjs` and the download links in all three HTML files.
 
